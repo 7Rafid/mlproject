@@ -1,0 +1,37 @@
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select,
+.input-div {
+  background: rgba(255,255,255,0.1);
+  font-family: 'Poppins',sans-serif;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  color: black !important;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  /* color: #8a97a0; */
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+body{
+    min-height: 100vh;
+    background: url('https://wallpaperaccess.com/full/5216528.jpg');
+    background-size: cover;
+}
+input::placeholder{
+    color: black !important;
+}
